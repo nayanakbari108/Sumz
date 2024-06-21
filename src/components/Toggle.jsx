@@ -17,7 +17,7 @@ const Toggle = () => {
         <button onClick={() => {
             setActiveTab("text")
             localStorage.setItem("tab","text")
-        }} className={`tab_btn ${activeTab === "text" && "active"}`}>Text</button>
+        }} className={`tab_btn  ${activeTab === "text" && "active"}`}>Text</button>
       </div>
     </div>
 
