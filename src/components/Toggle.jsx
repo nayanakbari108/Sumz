@@ -8,7 +8,7 @@ const Toggle = () => {
 
   return (
     <>
-    <div className='mt-9 flex justify-center items-center  toggle'>
+    <div className='mt-9  flex justify-center items-center  toggle'>
       <div className='flex '>
         <button onClick={() => {
             setActiveTab("url");

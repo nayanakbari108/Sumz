@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { loader } from "../assets"; // Assuming you have loader image in assets
 import { useSummarizeTextMutation } from "../services/article";
+import Star from '../assets/star.svg'
 
 
 const TextSummary = () => {
@@ -33,7 +34,7 @@ const TextSummary = () => {
               className='textarea_input no-scrollbar '
             />
             <button type='submit' className='font-satoshi  submit_btn_text mt-4 flex items-center gap-1 '>
-              <img className ="w-4 rotate-180 mb-1" src="src\assets\star.svg" alt="" />
+              <img className ="w-4 rotate-180 mb-1" src={Star} alt="star" />
               Summarize</button>
           </form>
         </div>
